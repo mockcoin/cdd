@@ -1,0 +1,159 @@
+# String方法
+String 支持点语法调用方法，IDE本身也支持代码提示，在字符串变量后输入.将自动弹出Ｓｔｒｉｎｇ相关的方法提示。
+
+## charAt 
+返回字符串中指定位置的字符
+
+charAt(index)
+
+参数：index - 要获取的字符位置索引（从0开始）
+
+## clear
+ 清空字符串内容
+
+clear()
+
+将字符串长度设为0，清空所有字符,但不会立即释放内存。
+可以采用  str="" 立即释放内存
+
+## compare
+ 比较两个字符串
+
+compare(anotherString)
+
+参数：anotherString - 要比较的字符串 | 返回值：0-相等，负数-小于，正数-大于
+
+## concatInt
+ 将整数连接到字符串末尾
+
+concatInt(number)
+
+参数：number - 要连接的整数值
+
+## concatStr
+ 将字符串连接到当前字符串末尾
+
+concatStr(str)
+
+参数：str - 要连接的字符串
+
+## del
+ 删除字符串中指定位置的字符
+
+del(index)
+
+参数：index - 要删除的字符位置索引
+
+## equals
+ 比较字符串内容是否相同（区分大小写）
+
+equals(anotherString)
+
+参数：anotherString - 要比较的字符串 | 返回值：true-相同，false-不同
+
+## equalsIgnoreCase
+ 比较字符串内容是否相同（不区分大小写）
+
+equalsIgnoreCase(anotherString)
+
+参数：anotherString - 要比较的字符串 | 返回值：true-相同，false-不同
+
+## isEmpty
+ 检查字符串是否为空
+
+isEmpty()
+
+返回值：true-字符串长度为0，false-字符串长度不为0
+
+## lastIndexOf
+ 返回指定字符或子字符串最后出现的位置
+
+lastIndexOf(searchString)
+
+参数：searchString - 要查找的字符或字符串 | 返回值：找到的位置索引，未找到返回-1
+
+## len
+ 获取字符串长度
+
+len()
+
+返回值：字符串的字符个数（长度）
+
+## removeToEnd
+ 从指定位置开始删除到字符串末尾
+
+removeToEnd(startIndex)
+
+参数：startIndex - 开始删除的位置索引
+
+## replace
+ 替换字符串中的字符或子字符串
+
+replace(oldStr, newStr)
+
+参数：oldStr-要被替换的内容，newStr-替换后的新内容
+
+## setCharAt
+ 设置字符串中指定位置的字符
+
+setCharAt(index, char)
+
+参数：index-字符位置，char-要设置的新字符
+
+## startsWith
+ 检查字符串是否以指定前缀开头
+
+startsWith(prefix)
+
+参数：prefix-要检查的前缀字符串 | 返回值：true-以该前缀开头，false-不以该前缀开头
+
+
+## subStr(start, end)
+
+ 截取字符串中从start到end的子字符串
+
+## subStr(start, end)
+
+参数：start-起始位置索引，end-结束位置索引（不包含）
+
+## subStrToEnd
+ 从指定位置截取到字符串末尾
+
+subStrToEnd(startIndex)
+
+参数：startIndex-起始位置索引
+
+## toFloat
+ 将字符串转换为浮点数
+
+toFloat()
+
+返回值：转换后的浮点数值（如字符串不是有效数字则返回0）
+
+## toInt
+ 将字符串转换为整数
+
+toInt()
+
+返回值：转换后的整数值（如字符串不是有效数字则返回0）
+
+## lower
+ 将字符串转换为小写
+
+lower()
+
+返回值：全部转换为小写的新字符串
+
+## upper
+ 将字符串转换为大写
+
+toUpper()
+
+返回值：全部转换为大写的新字符串
+
+## trim
+ 去除字符串首尾的空白字符
+
+trim()
+
+返回值：去除首尾空格后的新字符串
